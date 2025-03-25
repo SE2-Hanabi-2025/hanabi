@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.client"
+    namespace = "com.se2hanabi.client"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.client"
+        applicationId = "com.se2hanabi.client"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -56,4 +56,8 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation(libs.coil.compose)
+    implementation(libs.coil.svg)
+    implementation(libs.ktor.client.core)
+    implementation(libs.ktor.client.cio)
 }

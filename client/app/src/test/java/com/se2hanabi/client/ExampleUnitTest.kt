@@ -1,4 +1,4 @@
-package com.example.client
+package com.se2hanabi.client
 
 import org.junit.Test
 

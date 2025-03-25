@@ -1,4 +1,4 @@
-package com.example.client.ui.theme
+package com.se2hanabi.client.ui.theme
 
 import android.app.Activity
 import android.os.Build
