@@ -6,7 +6,7 @@ This is the backend server for the **Hanabi** multiplayer game, built using **Sp
 
 - **Java 17+** (or a compatible version)
 - **Gradle** (for building and running the project)
-- **Maven** (optional, if you use it instead of Gradle)
+
 
 ## Getting Started
 
